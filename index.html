@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,67 +16,154 @@
     <!-- ====================== BOX ICONS ====================== -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- ====================== SWIPER CSS ====================== -->
+    <link rel="stylesheet" href="/swiper-bundle.min.css">
+
+    <style>
+        .page__down {
+            height: 1000px;
+            width: 100%;
+            background: white;
+        }
+
+        .text__down {
+            margin-top: 300px;
+            margin-left: 220px;
+        }
+    </style>
+
 </head>
+
 <body>
     <div class="page__up">
-    <header class="grid-container">
-        <div class="item1 itens">
-            <i class='bx bx-phone'></i> <a href="">(15) 98813-0247 </a>
-        </div>
-        <div class="item2 itens">
-            <i class='bx bx-lock' ></i> <a href="">Área do Cliente</a>
-        </div>
-    </header>
+        <header class="grid-container">
+            <div class="item1 itens">
+                <i class='bx bx-phone'></i> <a href="">(15) 98813-0247 </a>
+            </div>
+            <div class="item2 itens">
+                <i class='bx bx-lock'></i> <a href="">Área do Cliente</a>
+            </div>
+        </header>
 
-    <nav class="navbar__container">
-        <ul>
-            <li><a href="#contact"> <span class="cool-link">Contato</span> </a></li>
-            <li><a class="cool-link" href="#blog">Blog</a></li>
-            <li><a class="cool-link" href="#portfolio">Portifólio</a></li>
-            <li><a class="cool-link" href="#services">Serviços</a></li>
-            <li><a class="cool-link" href="#about">Sobre</a></li>
-            <li><a class="cool-link"  href="#home">Home</a></li>
-            <a href="#" class="nav__logo cool-link"><img src="/img/Layer 2.png" alt=""></a>
-          </ul>
+        <nav class="navbar__container">
+            <ul>
+                <li><a href="#contact"> <span class="cool-link">Contato</span> </a></li>
+                <li><a class="cool-link" href="#blog">Blog</a></li>
+                <li><a class="cool-link" href="#portfolio">Portifólio</a></li>
+                <li><a class="cool-link" href="#services">Serviços</a></li>
+                <li><a class="cool-link" href="#about">Sobre</a></li>
+                <li><a class="cool-link" href="#home">Home</a></li>
+                <a href="#" class="nav__logo cool-link"><img src="/img/Layer 2.png" alt=""></a>
+            </ul>
 
-          <div class="texto__imagem">
-              <div class="text__left">
-                  <p class="small__text">Agência de</p>
-                  <h1 class="big__text">
-                      MARKETING <br>
-                      DIGITAL E <br>
-                      PUBLICIDADE
-                  </h1>
-                  <p class="small__text">Sua comunicação muito mais bonita, com resultados <br>
-                  reais em venda. Solicite um diagnóstico gratuito do <br>
-                  seu marketing agora mesmo.  
-                  </p>
-                    <a href="#"><button class="button__budget">SOLICITE UM ORÇAMENTO <i class='bx bx-right-arrow-alt'></i></button></a>
-              </div>
-              <img src="/img/Gravity-Devices-UI-Mockup-Set-vol7 3.png" alt="" class="img__right">
-          </div>
+            <div class="texto__imagem">
+                <div class="text__left">
+                    <p class="small__text">Agência de</p>
+                    <h1 class="big__text">
+                        MARKETING <br>
+                        DIGITAL E <br>
+                        PUBLICIDADE
+                    </h1>
+                    <p class="small__text">Sua comunicação muito mais bonita, com resultados <br>
+                        reais em venda. Solicite um diagnóstico gratuito do <br>
+                        seu marketing agora mesmo.
+                    </p>
+                    <a href="#"><button class="button__budget">SOLICITE UM ORÇAMENTO <i
+                                class='bx bx-right-arrow-alt'></i></button></a>
+                </div>
+                <img src="/img/Gravity-Devices-UI-Mockup-Set-vol7 3.png" alt="" class="img__right">
+            </div>
 
-          <div class="socials__container">
+            <div class="socials__container">
 
-            <span class="line"></span>
-              <ul class="social__list">
-                  <li class="social__links"><i class='bx bxl-facebook-square' ></i></li>
-                  <li class="social__links"><i class='bx bxl-instagram' ></i></li>
-                  <li class="social__links"><i class='bx bxl-linkedin-square' ></i></li>
-                  <li class="social__links"><i class='bx bxl-pinterest' ></i></li>
-                  <li class="social__links"><i class='bx bxl-youtube' ></i></li>
-              </ul>
-          </div>
+                <span class="line"></span>
+                <ul class="social__list">
+                    <li class="social__links"><i class='bx bxl-facebook-square'></i></li>
+                    <li class="social__links"><i class='bx bxl-instagram'></i></li>
+                    <li class="social__links"><i class='bx bxl-linkedin-square'></i></li>
+                    <li class="social__links"><i class='bx bxl-pinterest'></i></li>
+                    <li class="social__links"><i class='bx bxl-youtube'></i></li>
+                </ul>
+            </div>
 
-          
 
-          
-    </nav>
+
+
+        </nav>
 
     </div>
 
-    
+    <div class="page__down">
+        <div class="page__down-content">
+            <!-- <div class="text__down grid-container">
+                <div class="grid-item">
+                <p class="small__text">Nosso Trabalho</p>
+                <h1 class="big__text">
+                    Portifólio
+                </h1>
+                <p class="small__text">Colaboramos com epresas de <br>
+                    pequeno à grande porte nacionalmente <br>
+                    para ajudá-las a engajar seu público e <br>
+                    conseguir resultados
+                </p>
 
-    
+                <a href="#"><button class="button__see-all">VER TODOS <i class='bx bx-right-arrow-alt'></i></button></a>
+            </div>
+        -->
+
+            <!-- Swiper -->
+
+            <div #swiperRef="" class="swiper-container mySwiper grid-item">
+                <div class="swiper-wrapper">
+
+                    <div class="discover__card swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="" class="discover__img" />
+                    </div>
+
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                centeredSlides: true,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+
+        </script>
+
+
+    </div>
+    </div>
+
+
+
+
+
+
 </body>
+
+
 </html>
