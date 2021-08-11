@@ -16,8 +16,9 @@
     <!-- ====================== BOX ICONS ====================== -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- ====================== SWIPER CSS ====================== -->
-    <link rel="stylesheet" href="/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
     <style>
         .page__down {
@@ -94,75 +95,31 @@
     </div>
 
     <div class="page__down">
-        <div class="page__down-content">
-            <!-- <div class="text__down grid-container">
-                <div class="grid-item">
-                <p class="small__text">Nosso Trabalho</p>
-                <h1 class="big__text">
-                    Portifólio
-                </h1>
-                <p class="small__text">Colaboramos com epresas de <br>
-                    pequeno à grande porte nacionalmente <br>
-                    para ajudá-las a engajar seu público e <br>
-                    conseguir resultados
-                </p>
 
-                <a href="#"><button class="button__see-all">VER TODOS <i class='bx bx-right-arrow-alt'></i></button></a>
+
+        <div class="card__container">
+            <div class="card__img">
+                <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                    alt="">
             </div>
-        -->
-
-            <!-- Swiper -->
-
-            <div #swiperRef="" class="swiper-container mySwiper grid-item">
-                <div class="swiper-wrapper">
-
-                    <div class="discover__card swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                            alt="" class="discover__img" />
-                    </div>
-
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+            <div class="card__title">
+                <p> Vaumorzinho motors </p>
+            </div>
+            <div class="card__subtitle">
+                <p>o cara é foda</p>
+            </div>
+            <div class="card__see-more">
+                <button> veja mais</button>
             </div>
         </div>
 
 
-        <!-- Swiper JS -->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                centeredSlides: true,
-                spaceBetween: 30,
-                pagination: {
-                    el: ".swiper-pagination",
-                    type: "fraction",
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-
-
-        </script>
 
 
     </div>
     </div>
-
-
-
-
-
-
+    </div>
 </body>
 
 
