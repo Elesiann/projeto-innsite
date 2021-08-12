@@ -202,13 +202,6 @@ a span {
   top: 430px;
 }
 
-.card__container {
-  width: 500px;
-  background-color: red;
-}
-
-.card__img img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
+.page__down {
+  height: 600px;
 }
