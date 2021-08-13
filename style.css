@@ -205,7 +205,7 @@ a span {
 }
 
 .page__down {
-  height: 600px;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -218,6 +218,8 @@ a span {
   max-height: 550px;
   overflow: hidden;
   position: relative;
+  padding: 2rem;
+  margin-bottom: 36px;
 }
 
 .carousel-item {
@@ -252,7 +254,7 @@ a span {
   left: 0;
   margin: auto;
   padding: 0 40px;
-  width: 40%;
+  width: 90%;
 }
 
 .carousel-item__image {
