@@ -232,7 +232,6 @@ a span {
   -webkit-align-items: center;
   -webkit-justify-content: flex-end;
   position: relative;
-  background-color: #fff;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
   position: absolute;
@@ -254,7 +253,7 @@ a span {
   left: 0;
   margin: auto;
   padding: 0 40px;
-  width: 90%;
+  width: 70%;
 }
 
 .carousel-item__image {
@@ -279,7 +278,7 @@ a span {
 .carousel-item__subtitle {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
-  font-size: 10px;
+  font-size: 16px;
   text-transform: uppercase;
   margin: 0;
   color: #7e7e7e;
@@ -292,12 +291,10 @@ a span {
 
 .carousel-item__title {
   margin: 15px 0 0 0;
-  font-family: "Playfair Display", serif;
   font-size: 44px;
-  line-height: 45px;
   letter-spacing: 3px;
   font-weight: 700;
-  color: #2c2c2c;
+  color: #3d32d8;
   transform: translateY(25%);
   opacity: 0;
   visibility: hidden;
@@ -311,7 +308,7 @@ a span {
   transition: 0.6s all ease-in-out;
   margin-top: 35px;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   color: #7e7e7e;
   line-height: 22px;
   margin-bottom: 35px;
@@ -342,53 +339,48 @@ a span {
 }
 
 .carousel-item__btn {
-  width: 35%;
+  vertical-align: middle;
+  padding: 16px;
+  border: 1px solid #2c2c2c;
   color: #2c2c2c;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
-  margin: 0;
-  width: 35%;
   font-weight: 700;
-  text-decoration: none;
-  transform: translateY(25%);
   opacity: 0;
-  visibility: hidden;
   transition: 0.6s all ease-in-out;
+}
+
+.carousel i {
+  vertical-align: middle;
+  color: #3d32d8;
+  font-size: 1.8rem;
+  padding-left: 30px;
 }
 
 .carousel__nav {
   position: absolute;
-  right: 0;
+  right: 16px;
   z-index: 2;
-  background-color: #fff;
-  bottom: 0;
+  background-color: #3d32d8;
+  bottom: 40%;
+  border-radius: 50%;
 }
 
 .carousel__icon {
   display: inline-block;
   vertical-align: middle;
   width: 16px;
-  fill: #5d5d5d;
+  fill: white;
 }
 
 .carousel__arrow {
+  display: flex;
   cursor: pointer;
   display: inline-block;
   padding: 11px 15px;
   position: relative;
-}
-
-.carousel__arrow:nth-child(1):after {
-  content: "";
-  right: -3px;
-  position: absolute;
-  width: 1px;
-  background-color: #b0b0b0;
-  height: 14px;
-  top: 50%;
-  margin-top: -7px;
 }
 
 .active {
@@ -411,3 +403,5 @@ a span {
   transition: 0.6s all ease-in-out;
   transform: translateX(0);
 }
+
+/* ================================================================ FOOTER ================================================================ */
