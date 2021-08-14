@@ -20,68 +20,12 @@
     <!-- ====================== BOX ICONS ====================== -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="/script.js">
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper-container {
-        position: absolute !important;
-        right: 0;
-        width: 60vw;
-        height: 80%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        height: 800px;
-        width: 700px !important;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        overflow: hidden;
-      }
-    </style>
-
   </head>
 
 <body>
+  <!------------------ Primeira parte do site  --------------------->
   <div class="page__up">
+    <!------------------ Mini header telefone + área do cliente  --------------------->
     <header class="grid-container">
       <div class="item1 itens">
         <i class='bx bx-phone'></i> <a href="">(15) 98813-0247 </a>
@@ -91,6 +35,7 @@
       </div>
     </header>
 
+    <!------------------ Navbar + Logo  --------------------->
     <nav class="navbar__container">
       <ul>
         <li><a href="#contact"> <span class="cool-link">Contato</span> </a></li>
@@ -131,17 +76,16 @@
           <li class="social__links"><i class='bx bxl-youtube'></i></li>
         </ul>
       </div>
-
-
-
-
     </nav>
-
+    <!-- FIM NAVBAR -->
   </div>
+  <!-- FIM PÁGINA DO TOPO -->
   </div>
 
 
+  <!-- INÍCIO PÁGINA DE BAIXO-->
   <div class="page__down">
+    <!-- INÍCIO CARROSSEL-->
     <div class="carousel">
       <div class="carousel__buttons">
         <div class="carousel__nav">
@@ -152,6 +96,8 @@
           </span>
         </div>
       </div>
+
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--1">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -167,6 +113,8 @@
           </div>
         </div>
       </div>
+
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--2">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -182,6 +130,8 @@
           </div>
         </div>
       </div>
+
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--3">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -198,6 +148,7 @@
         </div>
       </div>
 
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--4">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -213,6 +164,7 @@
         </div>
       </div>
 
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--5">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -230,6 +182,7 @@
         </div>
       </div>
 
+      <!-- ITEM CARROSSEL-->
       <div class="carousel-item carousel-item--6">
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
@@ -247,16 +200,24 @@
       </div>
     </div>
   </div>
+  <!-- FIM CARROSSEL-->
 
+  <!-- INÍCIO FOOTER-->
   <footer class="footer__container">
     <div class="footer__content">
       <div class="footer__left"><i class='bx bxs-store-alt'></i> O FUTURO DA SUA EMPRESA COMEÇA HOJE</div>
       <div class="footer__right"><a href="#"><button class="button__budget-1">SOLICITE UM ORÇAMENTO <i
-        class='bx bx-right-arrow-alt'></i></button></a></div>
+              class='bx bx-right-arrow-alt'></i></button></a></div>
     </div>
-  </footer>
 
-  <!-- partial -->
+    <div class="footnote">
+      <p>Giovani Machado Corrêa | We may not always go at the same pace, but we can always go the same way.</p>
+    </div>
+
+  </footer>
+  <!-- FIM FOOTER-->
+
+  <!-- AJAX -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./script.js"></script>
 

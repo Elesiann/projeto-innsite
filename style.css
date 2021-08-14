@@ -1,19 +1,32 @@
 /* =========================== FONTS =========================== */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
+/* =========================== RESET CSS =========================== */
 * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+/* ====================================================== */
+
+/* =========================== VARIÁVEIS GLOBAIS =========================== */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 
 a {
   text-decoration: none;
-}
-
-.page__up {
-  height: 992px;
-  background: linear-gradient(140deg, #3d32d8, #8c7ec7);
 }
 
 header {
@@ -67,6 +80,17 @@ li a {
   transition: 0.3s;
 }
 
+a span {
+  border: 1px solid white;
+}
+/* ====================================================== */
+
+.page__up {
+  height: 992px;
+  background: linear-gradient(140deg, #3d32d8, #8c7ec7);
+}
+
+/* =========================== CLASSES PARA HOVER QUE FAZ A BORDA 'SLIDAR' DA ESQUERDA PRA DIREITA =========================== */
 .cool-link {
   display: inline-block;
   color: white;
@@ -87,11 +111,9 @@ li a {
   width: 100%;
   transition: width 0.3s;
 }
+/* ====================================================== */
 
-a span {
-  border: 1px solid white;
-}
-
+/* =========================== PRIMEIRA PÁGINA (CIMA) =========================== */
 .nav__logo {
   position: absolute;
   left: 0;
@@ -123,7 +145,7 @@ a span {
   font-size: 4rem;
 }
 
-/* BUTTONS */
+/* =========================== BUTTONS =========================== */
 .button__budget {
   margin-top: 30px;
   background: none;
@@ -160,8 +182,6 @@ a span {
   color: white;
 }
 
-/* BUTTONS */
-
 .button__budget:hover {
   background: white;
   color: #101010;
@@ -178,6 +198,9 @@ a span {
   color: #101010;
 }
 
+/* ====================================================== */
+
+/* =========================== SOCIAL =========================== */
 .social__list {
   display: inline-block;
   position: absolute;
@@ -204,6 +227,9 @@ a span {
   top: 430px;
 }
 
+/* ====================================================== */
+
+/* =========================== PÁGINA DE BAIXO + CARROSSEL =========================== */
 .page__down {
   height: 100%;
   display: flex;
@@ -232,7 +258,6 @@ a span {
   justify-content: flex-end;
   -webkit-align-items: center;
   -webkit-justify-content: flex-end;
-  position: relative;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
   position: absolute;
@@ -277,7 +302,6 @@ a span {
 }
 
 .carousel-item__subtitle {
-  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   font-size: 16px;
   text-transform: uppercase;
@@ -315,6 +339,7 @@ a span {
   margin-bottom: 35px;
 }
 
+/* =========================== CARROSSEL IMAGENS =========================== */
 .carousel-item--1 .carousel-item__image {
   background-image: url("https://scontent.fcfc1-1.fna.fbcdn.net/v/t1.6435-9/182298144_4231050670262007_4208719427343645703_n.png?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=IvUQlvJ1k7cAX8Qsce5&_nc_ht=scontent.fcfc1-1.fna&oh=ce826f5c8e3692fadf9976483f0b75cc&oe=613D118F");
 }
@@ -404,6 +429,7 @@ a span {
   transition: 0.6s all ease-in-out;
   transform: translateX(0);
 }
+/* ====================================================== FIM CARROSSEL ======================================================*/
 
 /* ================================================================ FOOTER ================================================================ */
 .footer__content {
@@ -448,3 +474,13 @@ a span {
 }
 
 /* ==================================== MEDIA QUERIES ==================================== */
+/* to be done :)  */
+
+/* notinha */
+.footnote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #3d32d8;
+  padding: 1rem;
+}
